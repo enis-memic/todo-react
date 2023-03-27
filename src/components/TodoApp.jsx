@@ -1,18 +1,14 @@
-import Form from './Form';
 import Header from './Header';
-import Modal from './Modal';
-import Navbar from './Navbar';
 import TodosLogic from './TodosLogic';
 
 const TodoApp = () => {
   return (
-    <>
-      <Navbar />
-      <Modal />
-      <Header />
-      <Form />
-      <TodosLogic />
-    </>
+    <div className="wrapper">
+      <div className="todos">
+        <Header />
+        <TodosLogic />
+      </div>
+    </div>
   );
 };
 export default TodoApp;
