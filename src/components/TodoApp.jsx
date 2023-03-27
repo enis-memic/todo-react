@@ -1,3 +1,4 @@
+import Form from './Form';
 import Header from './Header';
 import Modal from './Modal';
 import Navbar from './Navbar';
@@ -9,6 +10,7 @@ const TodoApp = () => {
       <Navbar />
       <Modal />
       <Header />
+      <Form />
       <TodosLogic />
     </>
   );
